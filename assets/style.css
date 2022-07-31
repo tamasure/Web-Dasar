@@ -1,0 +1,166 @@
+@import url('https://fonts.googleapis.com/css2?family=Redressed&family=Roboto+Condensed:wght@300&family=Roboto:ital,wght@0,400;0,500;1,500&display=swap');
+
+body{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Roboto', sans-serif;
+    
+}
+main{
+    padding: 20px;
+    overflow: auto;
+}
+/* Navbar */
+nav a{
+    padding-top: 10rem;
+    font-size: 18px;
+    font-weight: 400;
+    text-decoration: none;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+}
+nav li {
+    display: inline;
+    list-style-type: none;
+    margin-right: 20px;
+}
+
+nav ul{
+    width: fit-content;
+    margin: auto;
+}
+nav{
+    background-color: black;
+    padding: 5px;
+    top: 0%;
+    position:sticky;
+}
+
+nav a:hover{
+    font-weight: bold;
+    color:burlywood
+}
+
+/* Akhir Navbar */
+
+/* Jumbotron */
+.jumbotron{
+    box-shadow: 0 4px 8px 0 rgba(134, 121, 121, 0.2);
+    border-radius: 5px;
+    font-size: 20px;
+    padding: 2px;
+    text-align: center;
+    background-color: #4953;
+    
+}
+.jumbotron p{
+    font-weight: bolder;
+    font-family: 'Redressed', cursive;
+}
+/* Akhir Jumbotron */
+
+.content{
+    float: left;
+    width: 70%;
+    
+}
+.content p{
+    text-align: justify;
+}
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
+    padding: 20px;
+    margin-top: 20px;
+    
+   
+}
+.featured-image {
+    width: 100%;
+    max-height: 300px;
+    object-fit: cover;
+    object-position: center;
+    
+}
+/* Aside */
+aside{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
+    padding: 20px;
+    margin-top: 20px;
+    width: 28%;
+    float: right;
+    text-align: center;
+}
+aside figcaption{
+    font-weight: bold;
+}
+aside img{
+    width: 100px;
+    object-position: center;
+}
+aside ul{
+    padding-left: 1rem;
+    text-align: center;
+}
+
+/* Akhir Aside */
+#more1,
+#more2,
+#more3 {
+    display: none;
+    
+}
+.button {
+  
+    text-decoration: none;
+    font-size: 17px;
+    text-align: right;
+    
+    
+}
+.button a{
+    font-weight: bolder;
+    text-decoration: none;
+    color: black;
+}
+
+.button a:hover {
+    color: brown;
+    
+}
+
+* {
+    box-sizing: border-box;
+   }
+
+@media screen and (max-width: 1000px) {
+    aside {
+    width: 100%;
+    padding: 35px;
+    }
+}
+@media screen and (max-width: 1000px) {
+    .content {
+    width: 100%;
+    padding: 35px;
+    }
+}
+@media screen and (max-width: 1000px) {
+    .nav {
+    width: 100%;
+    padding: 35px;
+    }
+}
+
+footer {
+    padding: 20px;
+    font-weight: bolder;
+    background-color: whitesmoke;
+    text-align: center;
+    font-weight: bold;
+    background-color: #4953 ;
+}
+
+
+
